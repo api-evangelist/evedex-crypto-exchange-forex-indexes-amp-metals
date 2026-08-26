@@ -1,0 +1,65 @@
+name: 'EVEDEX — Crypto Exchange: Forex, Indexes & Metals'
+description: >-
+  EVEDEX is a hybrid, self-custodial crypto derivatives exchange built on Arbitrum Layer 3, offering perpetual futures,
+  P2P, and copy trading. It exposes a REST API (Auth, Exchange, and Market Data services), a Centrifugo WebSocket
+  real-time API, OpenAPI/Swagger contracts, an official Node.js/TypeScript SDK, and an llms.txt agent-native surface.
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/evedex-crypto-exchange-forex-indexes-amp-metals/refs/heads/main/apis.yml
+created: '2026-08-26'
+modified: '2026-08-26'
+specificationVersion: '0.21'
+tags:
+  - Cryptocurrency Exchange
+  - Perpetual Futures
+  - Derivatives
+  - DeFi
+  - DEX
+  - Trading API
+  - Market Data
+  - WebSocket
+  - Real-time
+  - Blockchain
+  - Arbitrum
+  - Self-custody
+  - Web3
+apis:
+  - name: EVEDEX Exchange API
+    description: >-
+      REST API spanning Auth service (registration/authorization via API key or SIWE JWT), Exchange service (/api/*
+      market and order endpoints), and Market Data service (public historical price data). Includes OpenAPI/Swagger
+      contracts and an official npm SDK.
+    humanURL: https://docs.evedex.com/developers/developers
+    baseURL: https://market-data-api.evedex.com
+    tags:
+      - Cryptocurrency Exchange
+      - Perpetual Futures
+      - Derivatives
+      - DeFi
+      - DEX
+      - Trading API
+      - Market Data
+      - WebSocket
+      - Real-time
+      - Blockchain
+      - Arbitrum
+      - Self-custody
+      - Web3
+    properties:
+      - type: OpenAPI
+        url: https://swagger.evedex.com/?urls.primaryName=Auth
+      - type: OpenAPI
+        url: https://swagger.evedex.com/?urls.primaryName=Exchange
+      - type: Documentation
+        url: https://docs.evedex.com/developers/developers
+      - type: Documentation
+        url: https://swagger.evedex.com/
+      - type: LLMsTxt
+        url: https://docs.evedex.com/llms.txt
+maintainers:
+  - FN: EVEDEX
+    url: https://github.com/evedex-official
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 90
+  at: '2026-08-26T12:39:26.979Z'
