@@ -28,6 +28,20 @@ tags:
   - Trading API
   - Market Data
   - WebSocket
+  - Real-Time
+  - Blockchain
+  - Arbitrum
+  - Self-Custody
+  - Web3
+tags_raw:
+  - Cryptocurrency Exchange
+  - Perpetual Futures
+  - Derivatives
+  - DeFi
+  - DEX
+  - Trading API
+  - Market Data
+  - WebSocket
   - Real-time
   - Blockchain
   - Arbitrum
@@ -42,6 +56,20 @@ apis:
     humanURL: https://docs.evedex.com/developers/developers
     baseURL: https://market-data-api.evedex.com
     tags:
+      - Cryptocurrency Exchange
+      - Perpetual Futures
+      - Derivatives
+      - DeFi
+      - DEX
+      - Trading API
+      - Market Data
+      - WebSocket
+      - Real-Time
+      - Blockchain
+      - Arbitrum
+      - Self-Custody
+      - Web3
+    tags_raw:
       - Cryptocurrency Exchange
       - Perpetual Futures
       - Derivatives
